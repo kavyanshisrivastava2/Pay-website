@@ -1,0 +1,4394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif; 
+}
+
+html{
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cfcfcf;
+    
+}
+
+div {
+    display: block-size  border ;
+}
+
+
+body {
+    color: #000;
+    height: 100%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    background: #f0fbff;
+}
+
+.heade {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.heade .wow {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    box-shadow: 0 5px 20px rgba(0,41,112,.1);
+    height: 92px;
+    background: #fff;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+}
+
+.heade .wow .hello
+{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heade .wow .hello .logo{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #00aced;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.heade .wow .hello .logo img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #00aced;
+    cursor: pointer;
+    width: 180px;
+}
+
+.heade .wow .hello nav{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    margin: auto;
+}
+.heade .wow .hello nav .khan{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    height: auto;
+}
+
+.heade .wow .hello nav .khan .shana{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    margin-right: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.heade .wow .hello nav .khan .shana .first{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.heade .wow .hello nav .khan .shana .first a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+    transition: .25s ease-in;
+    padding: 12px;
+    display: block;
+}
+.heade .wow .hello .second{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;                                                                    
+    font-weight: 400;
+    font-size: 14px;
+}
+.heade .wow .hello .second .block{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+}
+.heade .wow .hello .second .block .customer{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    background: #00baf2;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.heade .wow .hello .second .block .customer span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.heade .wow .hello .second .block .customer img{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+cursor: pointer;
+font-size: 15px;
+color: #fff;
+font-weight: 600;
+margin-left: 9px;
+border-radius: 50%;
+width: 34px;
+height: 34px;
+}
+/* HERE STARTS THE EMOJI LINE PORTION  */
+
+.block {
+    position: relative;
+}
+
+.block .consumer {
+    background: #00baf2;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hello .second .block .consumer img {
+    margin-left: 9px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.emoji {
+    height: 48px;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.emoji a {
+    font-size: 15px;
+    color:#000;
+}
+
+
+.emoji .hola {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.part1 {
+    background: #fff;
+}
+
+.part1 .portion1 {
+    padding: 128px 0 120px;
+    width: 1260px;
+    margin: auto;
+}
+
+.part1 .portion1 .left {
+    width: 650px;
+}
+
+.part1 .portion1 .left .logologo {
+    margin-bottom: 48px;
+}
+
+.part1 .portion1 .left .logologo img {
+    width: 80px;
+    box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+    border-radius: 16px;
+}
+
+.part1 .portion1 .left .lower {
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.part1 .portion1 .hey {
+    width: 528px;
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+/* .download{
+    padding: 0 24px;
+    height: 44px;
+    font-size: 15px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1;
+} */
+
+.part2
+{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+display: block;
+background: #00baf2;
+}
+
+.part2 .portion2{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+width: 1260px;
+margin: auto;
+}
+
+
+.part2 .portion2 .left1{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+padding: 65px 0;
+}
+
+.part2 .portion2 .left1 h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.part2 .portion2 .left1 .options{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.part2 .portion2 .left1 .options .single
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+display: flex;
+flex-direction: column;
+width: 140px;
+margin-right: 32px;
+cursor: pointer;
+border-radius: 12px;
+padding: 16px 11px 16px 16px;
+justify-content: space-between;
+font-size: 17px;
+color: #fff;
+font-weight: 500;
+line-height: 25px;
+}
+
+.part2 .portion2 .left1 .options .single .helen
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+cursor: pointer;
+position: relative;
+min-height: 45px;
+font-size: 15px;
+color: #fff;
+font-weight: 700;
+line-height: 22px;
+}
+
+.part2 .portion2 .left1 .options .single .helen .ellen
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+cursor: pointer;
+font-size: 15px;
+color: #fff;
+font-weight: 700;
+line-height: 22px;
+margin-right: 11px;
+}
+
+.part3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    background: #0f4a8a;
+}
+
+.part3 .portion3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 1260px;
+    margin: auto;
+}
+
+.part3 .portion3 .one{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 65px 0;
+}
+
+.part3 .portion3 .one h1
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+margin: 0;
+padding: 0;
+font-size: 36px;
+color: #fff;
+font-weight: 700;
+display: flex;
+align-items: center;
+}
+
+.part3 .portion3 .one .ab{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    margin-top: 25px;
+}
+.part3 .portion3 .one .ab .cd
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+display: flex;
+flex-direction: column;
+width: 140px;
+margin-right: 32px;
+cursor: pointer;
+border-radius: 12px;
+padding: 16px 11px 16px 16px;
+justify-content: space-between;
+font-size: 17px;
+color: #fff;
+font-weight: 500;
+line-height: 25px;
+}
+
+.part3 .portion3 .one .ab .cd .ef{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+cursor: pointer;
+position: relative;
+min-height: 45px;
+color: #fff;
+font-weight: 700;
+font-size: 18px!important;
+line-height: 20px!important;
+}
+
+.part3 .portion3 .one .ab .cd .ef .gh{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px!important;
+    line-height: 20px!important;
+    margin-right: 11px;
+}
+
+.part4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #f5f7fa;
+    padding-top: 120px;
+}
+
+.part4 h1
+{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+padding: 0;
+width: 1170px;
+margin: 0 auto 35px;
+font-size: 48px;
+color: #000;
+font-weight: 700;
+line-height: 50px;
+}
+
+.part4 .portion4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.part4 .portion4 .two{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 80px 50px 80px 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part4 .portion4 .two .dear{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.part4 .portion4 .two .dear .tiger
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-size: 16px;
+font-weight: 700;
+width: 175px;
+display: flex;
+align-items: center;
+}
+
+.part4 .portion4 .two .dear .tiger img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
+}
+
+.part4 .portion4 .two .dear .lion
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+margin-top: 48px;
+font-size: 36px;
+font-weight: 600;
+line-height: 46px;
+}
+
+.part4 .portion4 .two .dear .lion .snake{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.part4 .portion4 .two .dear .lion span
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+padding: 24px 0 30px;
+display: block;
+font-size: 17px;
+font-weight: 500;
+line-height: 26px;
+}
+
+
+.part4 .portion4 .two .dear .lion .bird
+{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+border: 1px solid #000;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 1;
+background: #000;
+color: #fff;
+font-weight: 500;
+width: max-content;
+padding: 0 24px;
+height: 44px;
+font-size: 15px;
+}
+
+.part4 .portion4 .two .dear .lion .bird a{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+line-height: 1;
+font-weight: 500;
+font-size: 15px;
+text-decoration: none;
+color: #00aced;
+cursor: pointer;
+display: inline-flex;
+}
+
+.part4 .portion4 .two .rear 
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+width: 539px;
+}
+
+.portion5
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+display: block;
+padding: 0 0 48px;
+position: relative;
+background: #f5f7fa;
+}
+
+.portion5 .part5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.portion5 .part5 .insect{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 80px 50px 80px 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portion5 .part5 .insect .bottle{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion5 .part5 .insect .bottle .cap{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 175px;
+    display: flex;
+    align-items: center;
+}
+
+.portion5 .part5 .insect .bottle .cap img
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-size: 16px;
+font-weight: 700;
+height: 77px;
+width: auto;
+padding-right: 12px;
+}
+.portion5 .part5 .insect .bottle .london{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+margin-top: 48px;
+font-size: 36px;
+font-weight: 600;
+line-height: 46px;
+}
+.portion5 .part5 .insect .bottle .london .usa{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+margin-top: 48px;
+width: 390px;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+}
+
+.portion5 .part5 .insect .bottle .london .spain
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+padding: 24px 0 30px;
+display: block;
+font-size: 17px;
+font-weight: 500;
+line-height: 26px;
+}
+
+.portion5 .part5 .insect .bottle .london .pink
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+border: 1px solid #000;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 1;
+background: #000;
+color: #fff;
+font-weight: 500;
+width: max-content;
+padding: 0 24px;
+height: 44px;
+font-size: 15px;
+}
+
+.portion5 .part5 .insect .bottle .london .pink a{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+line-height: 1;
+font-weight: 500;
+font-size: 15px;
+text-decoration: none;
+color: #00aced;
+cursor: pointer;
+display: inline-flex;
+}
+.portion5 .part5 .insect .red
+{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+width: 539px;
+}
+
+.portion5 .part5 .insect .bottle .london .usa span
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+display: block;
+padding: 0;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+}
+
+.portion5 .part5 .insect .bottle .london .green{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.portion5 .part5 .insect .bottle .london .yellow{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+.portion5 .part5 .insect .bottle .london .yellow .grey{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.portion5 .part5 .insect .bottle .london .yellow .violet{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion5 .part5 .insect .orange{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 433px;
+}
+
+
+/* THIS IS FOR SECTION 6 */
+
+.portion6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    background: #f5f7fa;
+}
+
+.portion6 .part6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 1170px;
+    margin: auto;
+    padding: 0 0 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.portion6 .part6 .blue{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    margin-right: 48px;
+    position: relative;
+    width: 561px;
+    height: 630px;
+    cursor: pointer;
+}
+.portion6 .part6 .blue .light
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+cursor: pointer;
+height: 75px;
+display: flex;
+align-items: flex-end;
+}
+.portion6 .part6 .blue .light img{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+cursor: pointer;
+width: auto;
+height: 77px;
+}
+
+.portion6 .part6 .blue .eyes{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.portion6 .part6 .blue .eyes h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.portion6 .part6 .blue .eyes h1 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    display: block;
+}
+
+.portion6 .part6 .blue .eyes p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.portion6 .part6 .blue .sun{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    height: 296px;
+    transform: translate(-50%,2%);
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+}
+
+.portion6 .part6 .blue1 .sunlight{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    height: 75px;
+    display: flex;
+    align-items: flex-end;
+}
+.portion6 .part6 .blue1 .sunlight img{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+cursor: pointer;
+width: auto;
+height: 20px;
+}
+.portion6 .part6 .blue1 .eyes1{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+font-weight: 400;
+font-size: 14px;
+cursor: pointer;
+}
+
+.portion6 .part6 .blue1 .eyes1 h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.portion6 .part6 .blue1 .eyes1 h1 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    display: block;
+}
+
+.portion6 .part6 .blue1 .eyes1 p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.portion6 .part6 .blue1 .sun1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    height: 296px;
+    transform: translate(-50%,2%);
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+}
+
+/* THIS IS FOR PORTION 7  */
+.portion7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #fff;
+}
+
+.portion7 .goagoa{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    padding: 0;
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+    padding-top: 120px;
+}
+
+.portion7 .part7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    padding-bottom: 72px;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.portion7 .part7 .lily{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portion7 .part7 .lily .switch{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 40%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion7 .part7 .lily .switch .bulb{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion7 .part7 .lily .switch .bulb img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 212px;
+    padding-bottom: 12px;
+}
+
+.portion7 .part7 .lily .switch .mice{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.portion7 .part7 .lily .switch .ratt{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 24px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.portion7 .part7 .lily .switch .ratt span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding-top: 12px;
+    display: block;
+    width: 515px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.portion7 .part7 .lily .switch .type{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    padding: 16px 24px;
+    cursor: pointer;
+    position: relative;
+    line-height: 18px;
+    background: #002970;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 167px;
+    height: 44px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portion7 .part7 .lily .switch .type .printer{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    line-height: 18px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 11px;
+}
+.portion7 .part7 .lily .switch .type .cpu
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+cursor: pointer;
+line-height: 18px;
+font-size: 20px;
+color: #fff;
+font-weight: 600;
+transition: background-color .2s ease-out,opacity .2s;
+transform: rotate(0deg);
+width: 97%;
+height: 49px;
+position: absolute;
+top: 0;
+right: 2px;
+}
+
+.portion7 .part7 .lily .haze{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 452px;
+    z-index: 1;
+}
+
+
+/* THIS IS FOR SECTION 8 */
+
+.portion8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #f5f7fa;
+}
+
+.portion8 .part8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    background: transparent!important;
+}
+
+.portion8 .part8 .tutu{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    flex-direction: row-reverse;
+    padding: 80px 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portion8 .part8 .tutu .kuku{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 46%!important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion8 .part8 .tutu .kuku .oott{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 175px;
+    display: flex;
+    align-items: center;
+}
+
+.portion8 .part8 .tutu .kuku .oott .pocket{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: auto;
+    padding-right: 12px;
+    height: 54px;
+}
+
+.portion8 .part8 .tutu .kuku .shin
+{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+margin-top: 48px;
+font-size: 36px;
+font-weight: 600;
+line-height: 46px;
+}
+
+.portion8 .part8 .tutu .kuku .shin .chan{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    width: 390px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.portion8 .part8 .tutu .kuku .shin .triangle{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 24px 0 30px;
+    display: block;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.portion8 .part8 .tutu .kuku .shin .blackhole{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.portion8 .part8 .tutu .kuku .shin .blackhole .wire{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.portion8 .part8 .tutu .kuku .shin .blackhole .plug{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion8 .part8 .tutu .scroll{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 472px;
+    z-index: 1;
+}
+
+.portion8 .ptpt{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* THIS IS FOR SECTION 9 */
+.portion9{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #fff;
+}
+
+.portion9 .part9{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+
+.portion9 .part9 .nano{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 80px 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portion9 .part9 .nano .milli{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion9 .part9 .nano .milli .centi{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 175px;
+    display: flex;
+    align-items: center;
+}
+
+.portion9 .part9 .nano .milli .centi .hecta{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: auto;
+    padding-right: 12px;
+    height: 54px;
+}
+
+.portion9 .part9 .nano .milli .decade{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.portion9 .part9 .nano .milli .decade .century{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    width: 470px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.portion9 .part9 .nano .milli .decade .poker{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 24px 0 30px;
+    display: block;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 20px;
+
+}
+.portion9 .part9 .nano .milli .decade .make{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.portion9 .part9 .nano .milli .decade .make .out{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.portion9 .part9 .nano .milli .decade .make .outside{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion9 .part9 .nano .inside{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400; 
+    font-size: 14px;
+    width: 433px;
+}
+
+/* THIS IS FOR SECTION 10 THE PAGE  */
+
+
+.portion10{
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #f5f7fa;
+}
+
+
+.portion10 .part10{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #f5f7fa;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+
+.portion10 .part10 .deff{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    flex-direction: row-reverse;
+    padding: 80px 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.portion10 .part10 .deff .nose{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion10 .part10 .deff .nose .legs{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 175px;
+    display: flex;
+    align-items: center;
+}
+
+
+.portion10 .part10 .deff .nose .legs .hatt{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: auto;
+    padding-right: 12px;
+    height: 54px;
+}
+
+
+.portion10 .part10 .deff .nose .toe{
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    
+}
+.portion10 .part10 .deff .nose .toe .blabla{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+margin-top: 48px;
+width: 390px;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+}
+
+.portion10 .part10 .deff .nose .toe .kavu{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.portion10 .part10 .deff .nose .toe .keykey{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+text-decoration: none;
+background: #002970;
+padding: 16px 24px;
+border-radius: 25px;
+width: 120px;
+cursor: pointer;
+position: relative;
+display: flex;
+font-size: 17px;
+color: #fff;
+font-weight: 500;
+line-height: 18px;
+}
+
+.portion10 .part10 .deff .nose .toe .keykey .toptop{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.portion10 .part10 .deff .nose .toe .keykey .poppop{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion10 .part10 .deff .pullpull{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 433px;
+}
+
+/* THID IS FOR PORTION 11  */
+
+.portion11{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #fff;
+    padding-top: 120px;
+}
+
+.portion11 .part11{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    padding: 0;
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+.portion11 .suit{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #f5f7fa;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.portion11 .suit .case1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 80px 0 80px 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portion11 .suit .case1 .case2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion11 .suit .case1 .case2 .case3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.portion11 .suit .case1 .case2 .case3 .case4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.portion11 .suit .case1 .case2 .case3 .case5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.portion11 .suit .case1 .case2 .case3 .case6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+.portion11 .suit .case1 .case2 .case3 .case6 .case7{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+cursor: pointer;
+font-size: 17px;
+color: #fff;
+font-weight: 500;
+line-height: 18px;
+margin-right: 11px;
+}
+.portion11 .suit .case1 .case2 .case3 .case6 .case8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion11 .suit .case1 .brac{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 433px;
+}
+/* THIS IS FOR PORTION 12 */
+
+.portion12{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 48px;
+    position: relative;
+    background: #fff;
+}
+
+.portion12 .part12{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #f5f7fa;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.portion12 .part12 .page1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 80px 0 80px 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portion12 .part12 .page1 .page2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.portion12 .part12 .page1 .page2 .page3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+.portion12 .part12 .page1 .page2 .page3 .page4
+{-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-family: Inter,sans-serif;
+color: #000;
+margin-top: 48px;
+width: 390px;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+}
+
+.portion12 .part12 .page1 .page2 .page3 .page5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.portion12 .part12 .page1 .page2 .page3 .page6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.portion12 .part12 .page1 .page2 .page3 .page6 .page7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.portion12 .part12 .page1 .page2 .page3 .page6 .page8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion12 .part12 .page1 .page9{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 433px;
+}
+
+/* THIS IS FOR BIG PORTION  THAT IS SECTION 13 */
+
+.portion13{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    background: #fff;
+}
+
+.portion13 .part13{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 1170px;
+    margin: auto;
+    padding: 120px 0;
+}
+
+.portion13 .part13 h1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 89px;
+    width: 480px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.portion13 .part13 .fish{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.portion13 .part13 .fish .fish2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 21.5%;
+    margin-right: 70px;
+}
+
+.portion13 .part13 .fish .fish2 .fish3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+}
+
+.portion13 .part13 .fish .fish2 .fish4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.portion13 .part13 .fish .fish2 .fish4 .fish5 span{
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    display: block;
+}
+
+.portion13 .part13 .fish .fish2 .fish4 p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish6 .fish7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish6 .fish7 .fish99{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    display: initial;
+    transition: all .35s;
+    width: 260px;
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish6 .fish7 .fish99 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+    display: initial;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish6 .fish7 .fish8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 50px;
+    right: 0;
+    z-index: -1;
+    transition: all .35s;
+    position: absolute;
+    top: 9px;
+}
+
+.portion13 .part13 .fish .fish2 .fish4 .fish6 .fish7 .fish8 .fish98{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .35s;
+    position: absolute;
+    left: 30px;
+    width: 15px;
+    filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+
+.portion13 .part13 .fish .fish9{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 21.5%;
+    margin-right: 70px;
+
+}
+.portion13 .part13 .fish .fish9 .fish10{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+}
+
+.portion13 .part13 .fish .fish9 .fish11{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish12{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish12 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    display: block;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish13{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish13 .fish14{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish13 .fish14 a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    display: initial;
+    transition: all .35s;
+    width: 260px;
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish13 .fish14 a span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+    display: initial;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+
+.portion13 .part13 .fish .fish9 .fish11 .fish13 .fish14 .fish15{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 50px;
+    right: 0;
+    z-index: -1;
+    transition: all .35s;
+    position: absolute;
+    top: 9px;
+}
+
+.portion13 .part13 .fish .fish9 .fish11 .fish13 .fish14 .fish15 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .35s;
+    position: absolute;
+    left: 30px;
+    width: 15px;
+    filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+
+.portion13 .part13 .fish .fish16{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 21.5%;
+    margin-right: 70px;
+}
+
+
+.portion13 .part13 .fish .fish16 .fish17{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+}
+
+.portion13 .part13 .fish .fish16 .fish18{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish19
+{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+.portion13 .part13 .fish .fish16 .fish18 .fish19 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    display: block;
+}
+
+.portion13 .part13 .fish .fish16 .fish18 p{
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish20{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish20 .fish21{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish20 .fish21 a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    display: initial;
+    transition: all .35s;
+    width: 260px;
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish20 .fish21 a span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+    display: initial;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish20 .fish21 .fish22{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 50px;
+    right: 0;
+    z-index: -1;
+    transition: all .35s;
+    position: absolute;
+    top: 9px;
+}
+
+.portion13 .part13 .fish .fish16 .fish18 .fish20 .fish21 .fish22 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .35s;
+    position: absolute;
+    left: 30px;
+    width: 15px;
+    filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+
+.portion13 .part13 .fish .fish23{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 21.5%;
+    margin-right: 0;
+}
+
+.portion13 .part13 .fish .fish23 .fish24
+{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+}
+
+.portion13 .part13 .fish .fish23 .fish25{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish26{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish26 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    display: block;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish27{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish27 .fish28{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+.portion13 .part13 .fish .fish23 .fish25 .fish27 .fish28 a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    display: initial;
+    transition: all .35s;
+    width: 260px;
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish27 .fish28 a span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    font-weight: 700;
+    display: initial;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish27 .fish28 .fish29{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 50px;
+    right: 0;
+    z-index: -1;
+    transition: all .35s;
+    position: absolute;
+    top: 9px;
+}
+
+.portion13 .part13 .fish .fish23 .fish25 .fish27 .fish28 .fish29 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .35s;
+    position: absolute;
+    left: 30px;
+    width: 15px;
+    filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+}
+
+/* THIS IS FOR PORTION 14  */
+
+.portion14{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    background: #f5f7fa;
+    padding: 120px 0;
+}
+
+.portion14 .part14{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: linear-gradient(138.58deg,#3861e5 1.93%,#3babee 76.4%);
+    margin: auto;
+    border-radius: 24px;
+    position: relative;
+    width: 1170px;
+    height: 613px;
+}
+
+.portion14 .part14 .sheet1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.portion14 .part14 .sheet1 .sheet2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    width: 260px;
+    position: absolute;
+    top: 110px;
+    left: 183px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.portion14 .part14 .sheet1 .sheet2 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    width: 145px;
+}
+
+.portion14 .part14 .sheet1 .sheet2 .sheet3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin: 48px 0 45px;
+}
+
+.portion14 .part14 .sheet1 .sheet2 .sheet4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+
+.portion14 .part14 .sheet1 .sheet2 .sheet4 .sheet5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 11px;
+}
+
+.portion14 .part14 .sheet1 .sheet2 .sheet4 .sheet6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+    transition: background-color .2s ease-out,opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.portion14 .part14 .sheet7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.portion14 .part14 .sheet7 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 94%;
+    max-height: 675px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+
+/* THIS IS THE SECOND LAST PORTION OF THE MIDDLE BODY  */
+
+.portion15{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 120px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portion15 .part15{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px 0 60px 60px;
+    margin-bottom: 33px;
+    display: flex;
+}
+
+.portion15 .part15 .bean1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 200px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.portion15 .part15 .bean1 .bean2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.portion15 .part15 .bean1 .bean2 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 150px;
+    padding-right: 10px;
+}
+
+.portion15 .part15 .bean1 p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.portion15 .part15 .bean1 p a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding-top: 10px;
+    font-size: 17px;
+    color: #00baf2;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.portion15 .part15 .bean3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 870px;
+    position: relative;
+}
+
+.portion15 .part15 .bean3 .hyuj{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+
+}
+
+.portion15 .part15 .bean3 .hyuj .bean4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean4 .bean5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 10px;
+    background: #66d6ff;
+    padding: 5px 0;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean4 .bean5 .bean6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean4 .bean5 .bean6 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean4 .bean5 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px 0;
+    display: block;
+    width: 114px!important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean7 .bean8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 10px;
+    background: #66d6ff;
+    padding: 5px 0;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean7 .bean8 .bean9{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean7 .bean8 .bean9 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean7 .bean8 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px 0;
+    display: block;
+    width: 114px!important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean10{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean10 .bean11{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 10px;
+    background: #66d6ff;
+    padding: 5px 0;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.portion15 .part15 .bean3 .hyuj .bean10 .bean11 .bean12{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean10 .bean11 .bean12 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean10 .bean11 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px 0;
+    display: block;
+    width: 114px!important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean13{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean13 .bean14{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 10px;
+    background: #66d6ff;
+    padding: 5px 0;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean13 .bean14 .bean15{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean13 .bean14 .bean15 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    width: 145px;
+    height: 158px;
+}
+.portion15 .part15 .bean3 .hyuj .bean13 .bean14  span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px 0;
+    display: block;
+    width: 114px!important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean16{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean16 .bean17{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 10px;
+    background: #66d6ff;
+    padding: 5px 0;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean16 .bean17 .bean18{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean16 .bean17 .bean18 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    width: 145px;
+    height: 158px;
+}
+
+.portion15 .part15 .bean3 .hyuj .bean16 .bean17 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px 0;
+    display: block;
+    width: 114px!important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+.portion15 .part15 .bean3 .bean19{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #00aced;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    height: 27%;
+    margin: auto;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    right: -14px;
+}
+
+.portion15 .part15 .bean3 .bean19 .bean20{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #00aced;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid #00baf2;
+    border-radius: 50%;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+/* THIS IS LAST PORTION OF THE MIDDLE BODY  */
+.portion16{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 120px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portion16 .part16{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px 0 60px 60px;
+    margin-bottom: 33px;
+    display: flex;
+}
+
+.portion16 .part16 .loop{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 200px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.portion16 .part16 .loop .loop2{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.portion16 .part16 .loop .loop2 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 150px;
+    padding-right: 10px;
+}
+
+.portion16 .part16 .loop p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.portion16 .part16 .loop p a{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding-top: 10px;
+    font-size: 17px;
+    color: #00baf2;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.portion16 .part16 .loop3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    width: 870px;
+    position: relative;
+}
+
+.portion16 .part16 .loop3 .loop4{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop5{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop5 .loop6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    background: #66d6ff;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: normal;
+    padding: 30px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 133px;
+    height: 189px;
+    min-width: 133px;
+    min-height: 189px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop5 .loop6 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 100%;
+    margin: 0 0 24px;
+    width: 72px;
+    height: 72px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop5 .loop6 .loop19{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop7{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop7 .loop8{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    background: #66d6ff;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: normal;
+    padding: 30px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 133px;
+    height: 189px;
+    min-width: 133px;
+    min-height: 189px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop7 .loop8 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 100%;
+    margin: 0 0 24px;
+    width: 72px;
+    height: 72px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop7 .loop8 .loop20{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+.portion16 .part16 .loop3 .loop4 .loop7 .loop8 .loop20{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+    padding-top: 3px;
+    display: block;
+    font-size: 12px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop9{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+
+.portion16 .part16 .loop3 .loop4 .loop9 .loop10{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    background: #66d6ff;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: normal;
+    padding: 30px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 133px;
+    height: 189px;
+    min-width: 133px;
+    min-height: 189px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop9 .loop10 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 100%;
+    margin: 0 0 24px;
+    width: 72px;
+    height: 72px;
+}
+.portion16 .part16 .loop3 .loop4 .loop9 .loop10 .loop21{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop9 .loop10 .loop21 span{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+    padding-top: 3px;
+    display: block;
+    font-size: 12px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop11{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+.portion16 .part16 .loop3 .loop4 .loop11 .loop12{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    background: #66d6ff;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: normal;
+    padding: 30px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 133px;
+    height: 189px;
+    min-width: 133px;
+    min-height: 189px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop11 .loop12 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 100%;
+    margin: 0 0 24px;
+    width: 72px;
+    height: 72px;
+}
+.portion16 .part16 .loop3 .loop4 .loop11 .loop12 .loop22{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop13{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop13 .loop14{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    background: #66d6ff;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: normal;
+    padding: 30px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 133px;
+    height: 189px;
+    min-width: 133px;
+    min-height: 189px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop13 .loop14 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 100%;
+    margin: 0 0 24px;
+    width: 72px;
+    height: 72px;
+}
+.portion16 .part16 .loop3 .loop4 .loop13 .loop14 .loop23{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+.portion16 .part16 .loop3 .loop4 .loop15{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 36px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop15 .loop16{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    background: #66d6ff;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: normal;
+    padding: 30px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 133px;
+    height: 189px;
+    min-width: 133px;
+    min-height: 189px;
+}
+.portion16 .part16 .loop3 .loop4 .loop15 .loop16 img{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 100%;
+    margin: 0 0 24px;
+    width: 72px;
+    height: 72px;
+}
+
+.portion16 .part16 .loop3 .loop4 .loop15 .loop16 .loop24{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    list-style: none;
+    cursor: pointer;
+    white-space: normal;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.portion16 .part16 .loop3 .loop17{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #00aced;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    height: 27%;
+    margin: auto;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    right: -14px;
+}
+
+.portion16 .part16 .loop3 .loop17 .loop18{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #00aced;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid #00baf2;
+    border-radius: 50%;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+   
+@media screen and(max-width:496px)
+{    
+    .part1 .portion1 .hey {
+        width: 528px;
+        position: absolute;
+        top: 250px;
+        right: 0;
+    }
+    
+
+
+    
+}
